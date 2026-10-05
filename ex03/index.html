@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colors &amp; Opacity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Color Swatches</h2>
+  <div class="named">Named: tomato</div>
+  <div class="hex">HEX: #6495ed</div>
+  <div class="rgb">RGB: rgb(60, 179, 113)</div>
+  <div class="rgba">RGBA: rgba(147, 51, 234, 0.5)</div>
+
+  <h2>opacity vs rgba</h2>
+  <div class="backdrop">
+    <div class="opacity-box">
+      <h3>opacity: 0.5</h3>
+      <p>The text fades too (opacity cascades to children).</p>
+    </div>
+    <div class="rgba-box">
+      <h3>rgba(..., 0.5)</h3>
+      <p>Only the background is transparent; text stays solid.</p>
+    </div>
+  </div>
+</body>
+</html>
